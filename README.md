@@ -1,67 +1,30 @@
-<a name="readme-top"></a>
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Linkedin][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <!--<a href="https://github.com/xeekey/LogisticHelper">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
-
-<h3 align="center">LogisticHelper</h3>
-
-  <p align="center">
-    A Python-based machine learning project for predicting logistics data, developed as part of a school project.
-    <br />
-    <a href="https://github.com/xeekey/LogisticHelper"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/xeekey/LogisticHelper">View Demo</a>
-    ·
-    <a href="https://github.com/xeekey/LogisticHelper/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/xeekey/LogisticHelper/issues">Request Feature</a>
-  </p>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-LogisticHelper is a Python-based machine learning project aimed at predicting logistics data. It uses neural networks to process and predict outcomes based on input data. This project was developed as part of a school curriculum.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-* [![Python][Python-shield]][Python-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 To use LogisticHelper, run the `neuralLogistics.py` script. This script will process the data and use a neural network model for predictions.
+
+### In-Depth Example Usage: Model Training
+This example outlines the steps involved in training the LogisticHelper's neural network model. It's important to note that this example focuses on the model training aspect of the LogisticHelper.
+
+1. **Define Categorical and Numerical Columns**
+   - The script starts by identifying the categorical (e.g., 'ProductName', 'FORMAT') and numerical columns (e.g., 'Amount') for data preprocessing.
+
+2. **Specify Model Path**
+   - A path is set for saving or loading the trained model, such as 'my_model.h5'.
+
+3. **Load and Preprocess Data**
+   - Data is loaded and preprocessed using specific functions, requiring the dataset path and the defined columns.
+
+4. **Model Training/Evaluation or Loading**
+   - The script checks for an existing trained model. If not found, it proceeds to train a new model using the preprocessed data.
+
+5. **Prepare Prediction Data**
+   - New data for prediction is prepared, ensuring it matches the format of the training data.
+
+6. **Make Predictions**
+   - The preprocessed prediction data is then used with the trained model to make predictions.
+
+This example demonstrates the model training process, from data preparation to prediction. It's a crucial part of LogisticHelper's functionality, focusing on how the neural network model is trained and utilized for making predictions.
 
 _For more examples, please refer to the [Documentation](https://github.com/xeekey/LogisticHelper)_
 
@@ -86,7 +49,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Project Link: [https://github.com/xeekey/LogisticHelper](https://github.com/xeekey/LogisticHelper)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/xeekey/LogisticHelper.svg?style=for-the-badge
